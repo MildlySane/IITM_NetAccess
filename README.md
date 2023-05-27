@@ -2,12 +2,12 @@
 Program to do NetAccess Authentication automatically on IITM LAN
 
 ## Supports
-Any OS that can run Python3
+Any Windows version that supports Python 3
 Python 3.7+
 
 ## Requirements
 Python 3.7 and above as the code uses Selenium, which is supported only for Python 3.7 and above
-You should have one of Chrome, Edge, Firefox or Safari installed (will check for other browsers and add support soon)
+Google Chrome (Will add support for other browsers)
 
 ## How to Use
 1. Download the source code (or clone it) to your device
@@ -17,7 +17,7 @@ You should have one of Chrome, Edge, Firefox or Safari installed (will check for
 
 If you want it to run every time you turn on your computer:
 
-Copy NetAccess. py to C:\Users\"Your Username"\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+Copy NetAccess. py to C:\Users\\"Your Username"\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
 
 ## Working
 If you have not copied it to the Startup folder, run NetAccess.py
