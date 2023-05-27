@@ -3,6 +3,7 @@ Program to do NetAccess Authentication automatically on IITM LAN
 
 ## Supports
 Any Windows version that supports Python 3
+
 Python 3.7+
 
 ## Requirements
