@@ -10,11 +10,11 @@ passwd="YOUR PASSWORD"
 
 service = Service(executable_path="PATH TO CHROME DRIVER/GECKO DRIVER")
 
-#If you're using Chrome
-driver = webdriver.Chrome(service=service)
+#If you're using Chrome, uncomment the following line:
+#driver = webdriver.Chrome(service=service)
 
-#If you're using Firefox
-driver = webdriver.Firefox(service=service)
+#If you're using Firefox, uncomment the following line:
+#driver = webdriver.Firefox(service=service)
 
 driver.get("http://netaccess.iitm.ac.in/account/login")
 
