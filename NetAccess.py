@@ -8,16 +8,19 @@ from selenium.webdriver.common.by import By
 roll_no="YOUR ROLL NO"
 passwd="YOUR PASSWORD"
 
-service = Service(executable_path="PATH TO CHROME DRIVER")
+service = Service(executable_path="PATH TO CHROME DRIVER/GECKO DRIVER")
+
+#If you're using Chrome
 driver = webdriver.Chrome(service=service)
+
+#If you're using Firefox
+driver = webdriver.Firefox(service=service)
 
 driver.get("http://netaccess.iitm.ac.in/account/login")
 
 """
 advanced=driver.find_element(By.ID,"details-button")
 advanced.click()
-
-
 
 unsafebut=driver.find_element(By.ID,"proceed-link")
 unsafebut.click()
